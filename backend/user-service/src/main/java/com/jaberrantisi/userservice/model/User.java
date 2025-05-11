@@ -15,6 +15,7 @@ import java.util.UUID;
 @Getter
 @AllArgsConstructor
 @Entity
+@Table(name = "users")
 public class User {
 
     @Id
